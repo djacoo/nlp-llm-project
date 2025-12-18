@@ -1,0 +1,31 @@
+# Core ML Libraries
+torch>=2.0.0
+numpy>=1.21.0
+transformers>=4.30.0
+datasets>=2.0.0
+
+# Parameter-Efficient Fine-Tuning
+peft>=0.4.0
+accelerate>=0.20.0
+
+# Evaluation & Metrics
+scikit-learn>=1.0.0
+evaluate>=0.4.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.12.0
+
+# Progress Bars & Utilities
+tqdm>=4.65.0
+wandb>=0.15.0
+
+# NLP Utilities
+tiktoken>=0.3.0
+
+# Jupyter Support
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Data Processing
+pandas>=1.5.0
