@@ -1,0 +1,21 @@
+name: nlp-llm-project
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - pytorch>=2.0
+  - numpy
+  - pip
+  - pip:
+      - transformers>=4.36.0
+      - datasets>=2.16.0
+      - peft>=0.7.0
+      - accelerate>=0.25.0
+      - scikit-learn>=1.3.0
+      - matplotlib>=3.7.0
+      - seaborn>=0.12.0
+      - jupyter
+      - ipykernel
+      - tqdm
